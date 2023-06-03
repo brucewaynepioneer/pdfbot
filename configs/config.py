@@ -6,18 +6,18 @@ import os
 class bot(object):
     
     # get API_ID, API_HASH values from my.telegram.org (Mandatory)
-    API_ID = os.environ.get("API_ID")
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = os.environ.get("13750040")
+    API_HASH = os.environ.get("6553ea819bb17098b0e3c62530823328")
     
     # add API_TOKEN from @botfather (Mandatory)
-    API_TOKEN = os.environ.get("API_TOKEN")
+    API_TOKEN = os.environ.get("6093001232:AAHU3oaTNcdEYC9aCnYH_G1lOMK4W1PDU0Y")
 
 
 class dm(object):
     
     # add admins Id list by space seperated (Optional)
     ADMINS = list(set(int(x) for x in os.environ.get("ADMINS", "").split()))
-    ADMINS.append(531733867)
+    ADMINS.append(5842877813)
     
     ADMIN_ONLY = os.environ.get("ADMIN_ONLY", False)
     
@@ -63,7 +63,7 @@ class settings(object):
     PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
     
     # channel id for forced Subscription with -100 (Optional)
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", False)
+    UPDATE_CHANNEL = os.environ.get("-1001952447172", False)
     
     # get convertAPI secret (Optional)
     CONVERT_API = os.environ.get("CONVERT_API", False)
@@ -80,14 +80,14 @@ class settings(object):
 
     MULTI_LANG_SUP = True if os.environ.get('MULTI_LANG_SUP', "False") == "True" else False
     
-    REPORT = "https://t.me/ilovepdf_bot/33?comment=1000000000"
+    REPORT = "https://t.me/upscinsider"
     
-    FEEDBACK = "https://telegram.dog/ilovepdf_bot"
+    FEEDBACK = "https://t.me/upscinsider"
     
     SOURCE_CODE = "https://github.com/nabilanavab/iLovePDF"
     
-    OWNER_ID, OWNER_USERNAME = 531733867, "nabilanavab"
+    OWNER_ID, OWNER_USERNAME = 5842877813, "amthespy"
     
-    OWNED_CHANNEL = "https://telegram.dog/iLovePDF_bot"
+    OWNED_CHANNEL = "https://t.me/upscinsider"
     
 # ===================================================================================================================================[NABIL A NAVAB -> TG: nabilanavab]
